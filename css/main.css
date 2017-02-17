@@ -76,6 +76,17 @@ a{
    font-weight: bold;
    color: var(--color-people1);
 }
+button{
+    width: 48vmin;
+    height: 48vmin;
+    border-radius: 50%;
+    border: solid;
+    border-color: rgb(147, 29, 21);
+    background-color: rgb(73, 1, 1);
+    border-width: 2vmin;
+    outline: none;
+    box-shadow: 0 2vw 2vw rgba(0,0,0,0.5);
+}
 .p_alignRight{
    text-align: right;
 }
@@ -121,6 +132,11 @@ a{
 
    margin: 0 5vw 5vw 5vw;
    /*background-color: rgba(0, 0, 255, 0.75);*/
+}
+.buttonContainer{
+    display: flex;
+    width: 100vmin;
+    justify-content: space-around;
 }
 .avatar{
    height: 30vw;
